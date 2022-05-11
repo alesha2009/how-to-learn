@@ -20,6 +20,7 @@
   /* выше установили ограничения для секции */
 }
 .header__title {
+ margin: 0;
  position: absolute;
  align-self:center;
  left: 64px;
@@ -29,7 +30,8 @@
  font-weight: bold;
  z-index: 1;
 }
-.header_subtitle {
+.header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -39,7 +41,7 @@
   font-weight: normal;
   z-index: 1;
 }
-.header_subtitle__strelka {
+.header__subtitle_strelka {
  color:#2f80ed;
 }
 .logo {
@@ -85,27 +87,31 @@ width: 80%;
 justify-content: space-between;
 }
 .two-columns__brief {
+margin: 0;
 color:#2f80ed;
 font-size: 18px;
 line-height: 1.2;
 left: 0;
 width: 175px;
 }
-.two-columns_main-text {
+.two-columns__main-text {
+  margin: 0;
   font-size: 24px;
 }
-.two-columns_paragraph {
+.two-columns__paragraph {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
 }
-.two-columns_span-accent {
+.two-columns__span-accent {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   display: inline-block;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.two-columns_content {
+.two-columns__content {
   width: 80%;
   flex-direction: column;
 }
@@ -215,6 +221,7 @@ width: 867px;
   padding-bottom: 90px;
 }
 .section-title_theme_dark {
+margin: 0;
 color: #ffffff;
 padding: 90px auto;
 margin:0;
@@ -224,6 +231,7 @@ font-weight: bold;
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
+  margin: 0;
   width: 200px;
   color: white;
   margin-right: 0;
@@ -241,11 +249,13 @@ font-weight: bold;
 font-weight: bold;
 }
 .table_text {
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: bold;
 }
 .table__heading-theme_dark {
+  margin: 0;
   color: #ffffff;
 }
 .kaufman__triangle {
@@ -312,6 +322,7 @@ font-weight: bold;
   padding: 0 10px 0 0;
 }
 .footer__column-links {
+  list-style-type: none;
   padding: 20px 0 16px;
   display: flex;
   flex-direction: column;
