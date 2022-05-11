@@ -19,7 +19,7 @@
   z-index: 0;
   /* выше установили ограничения для секции */
 }
-.header_title {
+.header__title {
  position: absolute;
  align-self:center;
  left: 64px;
@@ -42,10 +42,12 @@
 .header_subtitle__strelka {
  color:#2f80ed;
 }
-.logo_place_header {
-  position: absolute;
+.logo {
   height: 32px;
   width: 228px;
+}
+.logo_place_header {
+  position: absolute;
   margin-top: 30px;
   margin-left: 64px;
   z-index: 0;
@@ -82,7 +84,7 @@ min-width: 784px;
 width: 80%;
 justify-content: space-between;
 }
-.two-columns_brief {
+.two-columns__brief {
 color:#2f80ed;
 font-size: 18px;
 line-height: 1.2;
@@ -103,7 +105,7 @@ width: 175px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.two-columns-content {
+.two-columns_content {
   width: 80%;
   flex-direction: column;
 }
@@ -199,6 +201,7 @@ width: 867px;
   font-weight: normal;
   margin:0;
   color:#2f80ed;
+  text-decoration: none;
   
 }
 .kaufman {
@@ -211,16 +214,12 @@ width: 867px;
   overflow: hidden;
   padding-bottom: 90px;
 }
-.kaufman-section-title {
-  line-height: 1.15;
-  margin:0;
-  padding: 90px 0 0;
-  font-size: 60px;
-  font-weight: bold;
-}
 .section-title_theme_dark {
 color: #ffffff;
 padding: 90px auto;
+margin:0;
+padding: 90px 0 0;
+font-weight: bold;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -290,8 +289,6 @@ font-weight: bold;
 .footer__column_content_social {
 }
 .logo_place_footer {
-  height: 32px;
-  width: 228px;
   margin-top: 0;
   margin-left: 0;
 }
