@@ -58,9 +58,9 @@
 
 @import url(../blocks/video/video.css);
 
-@import url(../blocks/video/__frames/video__iframes.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
 
-@import url(../blocks/video/__frame/video__iframe.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 
 /*секция oakley */
 
@@ -148,7 +148,7 @@
 
 @import url(../blocks/footer/__author/footer__author.css);
 
-@import url(../blocks/footer/__column-heading/footer__column-heafing.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
 
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 
