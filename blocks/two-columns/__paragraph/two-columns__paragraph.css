@@ -3,6 +3,7 @@
     padding-bottom: 30px;
     line-height: 34px;
     font-size: 24px;
+    text-align: left;
   }
   .two-columns__paragraph:last-child {
     padding: 0;
